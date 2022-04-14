@@ -1,0 +1,21 @@
+{
+    "name": "siushin/utils",
+    "description": "常见PHP工具类，如：String、Array、Object、Math、第三方API封装等",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "siushin\\utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "siushin",
+            "email": "siushin@163.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
